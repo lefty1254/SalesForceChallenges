@@ -1,0 +1,30 @@
+body {
+    
+    margin-left: 1rem;
+    justify-content: center;
+    
+    
+}
+.my-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+
+#selfie{
+    height: 10rem;
+    width: auto;
+}
+
+#about-me-p{
+    width: 25%; height: auto
+}
+
