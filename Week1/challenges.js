@@ -1,5 +1,5 @@
 
-let list = [];
+let list = ["something",];
 
 function addItem(item){
     list.push(item);

@@ -1,9 +1,19 @@
 <html>
     <head>
         <script defer src="./challenges.js"></script>
+        <style>
+            button{
+               margin: 0.5rem; 
+            }
+        </style>
 
     </head>
     <body>
-        <button onclick="printList()">Add Item</button>
+        <label for="item">Add new item: </label>
+        <input type="text" id="item">
+        <br>
+        <button onclick="addItem(document.getElementById('item').value)">Add</button>
+        <br>
+        <button onclick="printList()">Print List</button>
     </body>
 </html>
